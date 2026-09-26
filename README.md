@@ -18,7 +18,7 @@ This draft repository contains the source files, model files, and final project 
 
 The supplied scripts are preserved as received. Several configuration values still point to machine-specific dataset, model, or output folders. Update those paths for your machine and provide the dataset before running training or inference.
 
-The supplied `Training/1.py` trains with `imgsz=320`; the report describes training with `imgsz=640` (report section 5.1), and the NCNN model metadata records 640×640. Confirm which training configuration is correct before using the script to reproduce the checkpoint.
+The supplied `Training/1.py` trains with `imgsz=320`; the report describes training with `imgsz=640` (report section 5.1), and the NCNN model metadata records 640�640. Confirm which training configuration is correct before using the script to reproduce the checkpoint.
 
 The supplied `data_1.yaml` contains machine-specific paths and uses nested `images`/`labels` keys. The report describes an Ultralytics dataset layout with `images/train`, `images/val`, `labels/train`, and `labels/val`. Review and correct the YAML to match the actual dataset before training.
 
@@ -36,5 +36,5 @@ The archive also contained older or debug GUIs, `4.py`, a cache directory, gener
 
 ## Privacy and licensing
 
-The report includes the student's name and ID. This repository draft is intended to be private unless you choose otherwise. No project-level license file was supplied, so none has been added. The NCNN model metadata reports Ultralytics AGPL-3.0; confirm the licensing terms you want before public release.
+This public repository includes the supplied report, which contains the student's name and ID. No project-level license file was supplied, so none has been added. The NCNN model metadata reports Ultralytics AGPL-3.0; confirm the licensing terms you want before public release.
 
