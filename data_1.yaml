@@ -1,0 +1,12 @@
+path: D:\Madhukar\Pupil project\Pupil project\Combining\Test_1_resized
+
+train:
+  images: D:\Madhukar\Pupil project\Pupil project\Combining\Test_1_resized\images
+  labels: D:\Madhukar\Pupil project\Pupil project\Combining\Test_1_resized\labels
+
+val:
+  images: D:\Madhukar\Pupil project\Pupil project\Outputs\frames_12_Ellipse_08_04_2026_12_22_35\zero_area_frames
+  labels: YOLO data
+
+names:
+  0: pupil
